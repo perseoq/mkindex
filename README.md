@@ -36,13 +36,13 @@ sudo mv mkindex /usr/local/bin/
 ## Uso básico
 
 ```bash
-./mkindex -p [directorio_con_html] -o [directorio_salida]
+mkindex -p [directorio_con_html] -o [directorio_salida]
 ```
 
 Ejemplo:
 
 ```bash
-./mkindex --path ./documentos --output ./public
+mkindex --path ./documentos --output ./public
 ```
 
 ## Opciones
